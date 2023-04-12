@@ -1,0 +1,16 @@
+let umaString = 'Um texto roeu a roupa do rei de roma';
+// let umaString = 'Um "texto"';
+let duasString = "Um \"texto\"";
+console.log(umaString[4]);
+console.log(umaString.split(' '));
+console.log(umaString.split('r', 2));
+console.log(umaString.toUpperCase());
+console.log(umaString.toLowerCase());
+// console.log(umaString.match(/[a-z]/g));
+// console.log(umaString.match(/m/));
+// console.log(umaString.length);
+// console.log(umaString.replace("Um", "Outro"));
+// console.log(umaString.charAt(4));
+// console.log(umaString.indexOf("texto"));
+// console.log(umaString.concat(" PALMEIRAS!!!"));
+// console.log(duasString);
