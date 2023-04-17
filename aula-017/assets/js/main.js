@@ -1,7 +1,7 @@
 // function saudacao(nome) {
-  // console.log('Hi, Mom 🥰')
-  // console.log('How can i be homophobic? My bitch is gay')
-  // console.log(`Bom dia ${nome}!`)
+// console.log('Hi, Mom 🥰')
+// console.log('How can i be homophobic? My bitch is gay')
+// console.log(`Bom dia ${nome}!`)
 //   return `Bom dia ${nome}`;
 // }
 
