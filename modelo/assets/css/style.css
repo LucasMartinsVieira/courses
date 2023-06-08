@@ -42,7 +42,7 @@ form input {
     padding: 0 20px;
 }
 
-form input: :focus {
+form input :focus {
     outline: 1px solid var(--primery-color);
 }
 
