@@ -26,6 +26,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/prefer-stateless-function': 'off',
     'react/state-in-constructor': 'off',
-    'import/no-duplicates': 'off'
+    'import/no-duplicates': 'off',
+    'react/forbid-prop-types': 'off'
   },
 };
