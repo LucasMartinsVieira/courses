@@ -2,10 +2,10 @@ import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-export default function MyRoute({ component: Component, IsClosed, ...rest }) {
+export default function MyRoute({ component: Component, isClosed, ...rest }) {
   const isLoggedIn = false;
 
-  if (IsClosed && !isLoggedIn) {
+  if (isClosed && !isLoggedIn) {
     return (
       <Redirect
         to={{ pathname: '/login', state: { prevPath: rest.location.pathname } }}
@@ -18,11 +18,11 @@ export default function MyRoute({ component: Component, IsClosed, ...rest }) {
 }
 
 MyRoute.defaultProps = {
-  IsClosed: false,
+  isClosed: false,
 };
 
 MyRoute.propTypes = {
   component: PropTypes.oneOfType([PropTypes.element, PropTypes.func])
     .isRequired,
-  IsClosed: PropTypes.bool,
+  isClosed: PropTypes.bool,
 };

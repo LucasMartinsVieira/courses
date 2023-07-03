@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 
 import store from './store';
 import history from './services/history';
-import GlobalStyles from './styles/GlobalStyles';
+import GlobalStyle from './styles/GlobalStyles';
 import Header from './components/Header';
 import Routes from './routes';
 
@@ -15,7 +15,7 @@ function App() {
       <Router history={history}>
         <Header />
         <Routes />
-        <GlobalStyles />
+        <GlobalStyle />
         <ToastContainer autoClose={3000} className="toast-container" />
       </Router>
     </Provider>
