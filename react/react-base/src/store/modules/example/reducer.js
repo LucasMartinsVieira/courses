@@ -4,10 +4,9 @@ const initialState = {
   botaoClicado: false,
 };
 
-// eslint-disable-next-line func-names
 export default function (state = initialState, action) {
   switch (action.type) {
-    case types.BOTAO_CLICADO_SUCESS: {
+    case types.BOTAO_CLICADO_SUCCESS: {
       console.log('Sucesso');
       const newState = { ...state };
       newState.botaoClicado = !newState.botaoClicado;

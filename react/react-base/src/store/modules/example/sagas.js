@@ -13,9 +13,9 @@ const requisicao = () =>
 function* exampleRequest() {
   try {
     yield call(requisicao);
-    yield put(actions.clicaBotaoSucess());
-  } catch (e) {
-    toast.error('Deu erro');
+    yield put(actions.clicaBotaoSuccess());
+  } catch {
+    toast.error('Deu erro.');
     yield put(actions.clicaBotaoFailure());
   }
 }
