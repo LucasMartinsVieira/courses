@@ -16,4 +16,17 @@ module.exports = {
   useTabs: false,
   vueIndentScriptAndStyle: false,
   embeddedLanguageFormatting: 'off',
+  options: {
+    editorconfig: true,
+  },
 };
+
+// {
+//   "trailingComma": "es5",
+//   "tabWidth": 4,
+//   "semi": false,
+//   "singleQuote": true,
+//   "options": {
+//     "editorconfig": true
+//   }
+// }
