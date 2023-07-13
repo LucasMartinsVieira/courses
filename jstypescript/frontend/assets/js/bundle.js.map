@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;;AAAa;AACb","sources":["webpack://jstypescript/./src/A0018-webpack/index.ts"],"sourcesContent":["\"use strict\";\nconsole.log('Lucas');\n"],"names":[],"sourceRoot":""}

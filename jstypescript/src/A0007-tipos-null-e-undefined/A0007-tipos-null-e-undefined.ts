@@ -18,7 +18,7 @@ export function squareOf(x: any) {
   return null
 }
 
-const squareOfTwoNumber = squareOf(2)
+const squareOfTwoNumber = squareOf(2) as number
 const squareOfTwoString = squareOf('2')
 
 if (typeof squareOfTwoNumber === null) {
