@@ -10,8 +10,6 @@ services:
       - --character-set-server=utf8mb4
       - --collation-server=utf8mb4_unicode_ci
       - --innodb_force_recovery=0
-    volumes: 
-      - ~/.MySQLDBData/mysqlonly/mysql_knex:/var/lib/mysql
     ports:
       - 3306:3306
     environment:
