@@ -1,4 +1,4 @@
-package fundamentals;
+package fundamentals.operators;
 
 public class ChallengeArithemetics {
     public static void main(String[] args) {
