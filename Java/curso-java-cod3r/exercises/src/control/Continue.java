@@ -1,4 +1,4 @@
-package Control;
+package control;
 
 public class Continue {
     public static void main(String[] args) {

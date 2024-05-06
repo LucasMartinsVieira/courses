@@ -1,18 +1,17 @@
-package Control;
+package control;
 
 import java.util.Scanner;
 
-public class DoWhile {
+public class WhileIndetermined {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         String value = "";
 
-        do {
-            System.out.print("You need to say the magic word\n");
-            System.out.print("Want to exit? ");
+        while (!value.equalsIgnoreCase("exit")) {
+            System.out.print("You say: ");
             value = input.nextLine();
-        } while (!value.equalsIgnoreCase("please"));
+        }
 
         input.close();
     }

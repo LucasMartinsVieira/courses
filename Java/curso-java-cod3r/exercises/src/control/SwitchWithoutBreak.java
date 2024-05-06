@@ -1,4 +1,4 @@
-package Control;
+package control;
 
 public class SwitchWithoutBreak {
     public static void main(String[] args) {

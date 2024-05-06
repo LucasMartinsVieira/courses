@@ -1,4 +1,4 @@
-package Control;
+package control;
 
 public class ChallengeIf {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Control;
+package control;
 
 public class Break {
     public static void main(String[] args) {
