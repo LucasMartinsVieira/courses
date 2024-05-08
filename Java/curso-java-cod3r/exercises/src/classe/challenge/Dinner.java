@@ -7,8 +7,8 @@ public class Dinner {
 
         Person p = new Person("Lucas", 99.8);
         System.out.println(p.introduceYourself());
-
         p.eat(f1);
+
         System.out.println(p.introduceYourself());
 
         p.eat(f2);
