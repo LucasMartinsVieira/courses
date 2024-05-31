@@ -1,0 +1,18 @@
+meta {
+  name: Change Product
+  type: http
+  seq: 5
+}
+
+put {
+  url: 127.0.0.1:8080/api/products
+  body: formUrlEncoded
+  auth: none
+}
+
+body:form-urlencoded {
+  name: Green Bic Pen 2
+  price: 8.99
+  discount: 0.1
+  id: 14
+}
