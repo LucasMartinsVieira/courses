@@ -22,6 +22,7 @@
             nodePackages.npm
             nodejs-slim
             openssl
+            nest-cli
           ];
           shellHook = with pkgs; ''
             export PRISMA_SCHEMA_ENGINE_BINARY="${prisma-engines}/bin/schema-engine"
